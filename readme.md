@@ -10,7 +10,7 @@ flowchart LR
     Server --> HTTP1[cam1]
     Server --> HTTP2[cam2]
     Server --> HTTP3[cam3]
-    Server --> HTTPN[cam(n)]
+    Server --> HTTPN[camn]
 
     classDef camera fill:#e3f2fd,stroke:#1976d2,stroke-width:2px;
     classDef server fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px;
