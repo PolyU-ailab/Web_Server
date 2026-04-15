@@ -7,10 +7,10 @@ flowchart LR
     CamN[Cam n] -- corresponding port --> Server
 
     %% Server exposes HTTP endpoints
-    Server --> HTTP1[http:IP_ADDRESS:5000/cam1]
-    Server --> HTTP2[http:IP_ADDRESS:5000/cam2]
-    Server --> HTTP3[http:IP_ADDRESS:5000/cam3]
-    Server --> HTTPN[http:IP_ADDRESS:5000/cam(n)]
+    Server --> HTTP1[{http:IP_ADDRESS:5000/cam1}]
+    Server --> HTTP2[{http:IP_ADDRESS:5000/cam2}]
+    Server --> HTTP3[{http:IP_ADDRESS:5000/cam3}]
+    Server --> HTTPN[{http:IP_ADDRESS:5000/cam(n)}]
 
     classDef camera fill:#e3f2fd,stroke:#1976d2,stroke-width:2px;
     classDef server fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px;
